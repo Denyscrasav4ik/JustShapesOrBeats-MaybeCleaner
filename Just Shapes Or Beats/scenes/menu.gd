@@ -207,7 +207,6 @@ func give_focus_to(ctrl: int):
 func set_main_ctrl(type: int):
 	
 	StreamPlayer.stream = null
-	StreamPlayer.play()
 	if type == CONTROL_TRACKS:
 		
 		current_tracks_struct = null
